@@ -186,7 +186,7 @@ if(player2Score===0 && gameState==="End"){
 
 if(player1Score===0 && gameState==="End"){
   fill("white");
-  rect(400,200,400,400)
+  rect(300,200,500,400)
   textSize(50);
   fill("grey");
   text("Player 2 wins", 450, 300);
